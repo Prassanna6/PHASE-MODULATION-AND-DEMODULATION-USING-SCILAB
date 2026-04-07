@@ -84,11 +84,11 @@ clc;
 clear;
 close;
 
-Ac = 29;          // Carrier amplitude
-Am = 14.5;        // Message amplitude
-Fc = 5260;        // Carrier frequency
-Fm = 526;         // Message frequency
-Fs = 60000;       // Sampling frequency
+Ac = 7.4;          // Carrier amplitude
+Am = 3.7;        // Message amplitude
+Fc = 1660;        // Carrier frequency
+Fm = 166;         // Message frequency
+Fs = 16600;       // Sampling frequency
 kp = %pi/4;       // Phase sensitivity constant
 
 t = 0:1/Fs:2/Fm;  // Time vector (two cycles of message)
