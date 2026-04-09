@@ -84,11 +84,11 @@ clc;
 clear;
 close;
 
-Ac = 7.4;          // Carrier amplitude
-Am = 3.7;        // Message amplitude
-Fc = 1660;        // Carrier frequency
-Fm = 166;         // Message frequency
-Fs = 16600;       // Sampling frequency
+Ac = 20.6;          // Carrier amplitude
+Am = 10.3;        // Message amplitude
+Fc = 3860;        // Carrier frequency
+Fm = 386;         // Message frequency
+Fs = 38600;       // Sampling frequency
 kp = %pi/4;       // Phase sensitivity constant
 
 t = 0:1/Fs:2/Fm;  // Time vector (two cycles of message)
@@ -127,7 +127,8 @@ GRAPH
 
 TABULATIONS
 
-<img width="1080" height="672" alt="image" src="https://github.com/user-attachments/assets/02911be7-3e17-4e9a-856a-130196c327d0" />
+![WhatsApp Image 2026-04-09 at 1 34 18 PM](https://github.com/user-attachments/assets/392a6a83-cd0f-4ac7-b6a2-687ad7f6ed43)
+
 
 
 RESULT
